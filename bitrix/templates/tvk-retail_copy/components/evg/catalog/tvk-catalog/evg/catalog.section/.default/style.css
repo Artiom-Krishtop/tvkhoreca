@@ -1,0 +1,33 @@
+.catalog-price {
+	 color:red;
+}
+div.tvk-catalog-section {padding: 0;}
+
+td.item-photo {
+	width: 135px; 
+	height: 165px; 
+	text-align: center; 
+	vertical-align: middle; 
+	background: #fff;
+	border: 1px solid #ccc;
+}
+
+td.item-photo img {
+	max-width: 135px; 
+	max-height: 135px; 
+	width: auto; 
+	height: auto; 
+	margin: 7px;
+}
+
+div.tvk-catalog-section table td {padding: 0; margin:0;}
+
+div.tvk-catalog-section table td a {font-style: italic; line-height:1.1;}
+
+div.tvk-catalog-section table td a:link {color: #666; text-decoration: none;}
+
+div.tvk-catalog-section table td a:visited {color: #666;}
+
+div.tvk-catalog-section table td a:hover {color:#0072cb; text-decoration: underline;}
+
+div.tvk-catalog-section table td small {color: #6699cc;}

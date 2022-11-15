@@ -1,0 +1,24 @@
+.catalog-price {
+	 color:red;
+}
+div.catalog-section {padding: 0;}
+
+div.catalog-section table td {padding: 0 10px 10px 0;}
+
+div.catalog-section table td a {font-style: italic; line-height:1.1;}
+
+div.catalog-section table td a:link {color: #666; text-decoration: none;}
+
+div.catalog-section table td a:visited {color: #666;}
+
+div.catalog-section table td a:hover {color:#0072cb; text-decoration: underline;}
+
+div.catalog-section table td span {color: #6699cc;}
+
+div.catalog-section table td img {
+	padding:10px;
+	background: #fff;
+	border: 1px solid #ccc;
+	width:135px;
+	height: auto;
+}

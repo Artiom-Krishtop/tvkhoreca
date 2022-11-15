@@ -1,0 +1,59 @@
+h1#page-title
+{
+	position:relative; 
+	font-size: 34px; 
+	color:#333333;  
+	margin:0; margin-bottom: 20px;
+	font-family: aavanteint_book, arial;
+	font-weight:normal;
+}
+
+.shifted
+{
+	margin-left: 160px;
+}
+
+h1
+{
+	font-family: aavanteint_book, arial; 
+	font-size:30px; 
+	color: #333333; 
+	letter-spacing: 1px; 
+	margin-bottom:15px;
+	line-height: 1.1; 
+	font-weight:normal;
+	padding-bottom: 0; margin-bottom: 0;
+}
+
+h2 {font:24px/24px Arial, Helvetica, sans-serif; margin-bottom:; color:#;}
+h3 {font:22px/22px Arial, Helvetica, sans-serif; margin-bottom:; color:#;}
+h4 {font:20px/20px Arial, Helvetica, sans-serif; margin-bottom:; color:#;}
+h5 {font:18px/18px Arial, Helvetica, sans-serif; margin-bottom:; color:#;}
+h6 {font:16px/16px Arial, Helvetica, sans-serif; margin-bottom:; color:#;}
+
+.left-arrow a, .right-arrow a {width:32px; height:66px;}
+.left-arrow a:hover {background: url(images/left-arrow-act.png) no-repeat;}
+.left-arrow a:link {background: url(images/left-arrow.png) no-repeat;}
+.right-arrow a:hover {background: url(images/right-arrow-act.png) no-repeat;}
+.right-arrow a:link {background: url(images/right-arrow.png) no-repeat;}
+
+table.grey-table 
+{
+border-bottom: 1px solid #cccccc;
+border-right: 1px solid #cccccc;
+background: #ffffff;
+}
+
+table.grey-table td
+{
+border-top: 1px solid #cccccc;
+border-left: 1px solid #cccccc;
+padding: 10px;
+}
+
+table.note
+{
+font-size: 90%;
+font-style: italic;
+color: #999999;
+}

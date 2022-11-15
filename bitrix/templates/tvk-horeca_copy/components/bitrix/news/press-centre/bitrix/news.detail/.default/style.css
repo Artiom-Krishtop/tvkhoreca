@@ -1,0 +1,33 @@
+div.news-detail {text-align: justify;}
+
+div.news-detail p, div.news-detail div {
+	padding-top: 0;
+	margin-top:0;
+	margin-right: 15px;
+}
+
+div.news-detail img {
+	margin: 5px 30px 15px;
+	padding: 10px; 
+	background: #fff; 
+	border: 1px solid #ccc;
+}
+
+div.news-detail td img {
+	margin:5px 10px; 
+	border: 1px solid #cccccc;
+}
+
+div.news-detail img.detail_picture {
+	float:left;
+	margin:0 8px 6px 1px;
+	border: 1px solid #cccccc;
+	max-width: 400px;
+}
+.news-date-time {
+	color:#999999;
+	font-family:Hattori;
+	padding-right: 15px;
+	text-align: right;
+	margin-bottom: 15px;
+}

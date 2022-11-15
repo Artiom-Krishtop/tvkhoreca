@@ -1,0 +1,19 @@
+div.news-list img.preview_picture
+{
+	float:left;
+	margin:0 4px 6px 0;
+}
+
+div.news-list {text-align: left;}
+p.news-item {margin-top:0;}
+
+.news-date-time {
+	color:#999;
+	font-family: HattoriHanzoItalic, Arial;
+	font-size: 90%;
+}
+
+div.news-list a {
+	font-family: HattoriHanzo, Arial;
+	font-size: 100%;
+}

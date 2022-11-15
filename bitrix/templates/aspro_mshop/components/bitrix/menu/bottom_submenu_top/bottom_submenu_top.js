@@ -1,0 +1,1 @@
+$(".bottom_submenu ul.submenu li").click(function()	{$(".bottom_submenu ul.submenu li").removeClass("selected");$(this).addClass("selected");});

@@ -1,0 +1,34 @@
+.news-list td{
+	vertical-align: top;
+	font-style: italic;
+}
+
+.news-list td.news-date-time {
+	font-size: 85%;
+width: /*255*/150px;
+}
+
+.item-title {
+	font-style: normal;
+	font-size: 110%;
+}
+
+div.news-list a:hover > span.item-title {
+	text-decoration: underline;
+}
+
+a span.preview-text
+{
+	color: #666666;
+	font-style: italic;
+	font-size: 90%;
+	line-height: 110%;
+}
+
+.news-list a:hover {text-decoration: none;}
+
+.news-list td img {
+	border: 1px solid #cccccc;
+	padding: 10px;
+	background: #fff;
+}

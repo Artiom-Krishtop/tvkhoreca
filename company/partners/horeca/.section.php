@@ -1,0 +1,6 @@
+<?
+$sSectionName = "HoReCa";
+$arDirProperties = Array(
+
+);
+?>

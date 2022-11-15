@@ -1,0 +1,47 @@
+div.news-list img.preview_picture
+{
+	float:left;
+	margin:0 4px 6px 0;
+}
+.news-date-time {
+	color:#486DAA;
+}
+.articles-list.lists_block.news{
+	float:none !important;
+}
+
+.articles-list.lists_block.news .wrapper_inner_block{
+	background: #fff;
+	overflow: hidden;
+	-webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 0.5px solid rgba(0, 0, 0, 0.2);
+}
+.articles-list.vertical .item_block.item .left-data{
+position: relative;
+}
+
+.articles-list.vertical .item_block.item .left-data:after{
+/*content: "";
+position: absolute;
+width: 100%;
+height: 40%;
+left: 0px;
+bottom: 12px;
+background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 10%, rgba(255, 255, 255, 0) 100%);
+background-image: -webkit-gradient(left top, left bottom, color-stop(10%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(255, 255, 255, 0)));
+background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 10%, rgba(255, 255, 255, 0) 100%);
+background-image: -o-linear-gradient(top, rgba(255, 255, 255, 1) 10%, rgba(255, 255, 255, 0) 100%);
+background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 10%, rgba(255, 255, 255, 0) 100%);
+background-image: linear-gradient(to top, rgba(255, 255, 255, 1) 10%, rgba(255, 255, 255, 0) 100%);*/
+}
+.articles-list .item .item-title a{
+text-align: center;
+}
+.articles-list.vertical .item .item-title a span{
+font-size: 17px !important;
+}

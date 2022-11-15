@@ -1,0 +1,67 @@
+.fixed_uload_panel{
+  position:fixed;
+  padding:5px;
+  width: 250px;
+  height: 60px;
+  background-color: #FEEC95;
+  /* Для хороших браузеров */
+    -moz-border-radius: 6px; /* Firefox */
+    -webkit-border-radius: 6px; /* Safari, Chrome */
+    -khtml-border-radius: 6px; /* KHTML */
+    border-radius: 6px; /* CSS3 */
+  z-index: 999;
+}
+.upload_pic{
+  border:1px solid #BBBBBB;
+  padding:5px;
+  background-color: #FEEC95;
+  /* Для хороших браузеров */
+    -moz-border-radius: 6px; /* Firefox */
+    -webkit-border-radius: 6px; /* Safari, Chrome */
+    -khtml-border-radius: 6px; /* KHTML */
+    border-radius: 6px; /* CSS3 */
+}
+.fixed_uload_panel label,
+.upload_pic label{
+  font-size:0.9em;
+  font-weight: bold;
+  color: #555555;
+}
+
+.fixed_uload_panel input[type=text],
+.upload_pic input[type=text]{
+  border:1px solid #BBBBBB;
+  width:99%
+}
+
+.fixed_uload_panel input[type=submit]{
+  background-color: #FFB332;
+  border: 1px solid #A68504;
+  color: #000000;
+  margin-top: 5px;
+  width: 100% !important;
+  /* Для хороших браузеров */
+    -moz-border-radius: 3px; /* Firefox */
+    -webkit-border-radius: 3px; /* Safari, Chrome */
+    -khtml-border-radius: 3px; /* KHTML */
+    border-radius: 3px; /* CSS3 */
+    cursor:pointer;
+}
+.upload_pic input[type=submit]{
+  background-color: #FFB332;
+  border: 1px solid #A68504;
+  color: #000000;
+  margin-top: 5px;
+  width: 100px;
+  /* Для хороших браузеров */
+    -moz-border-radius: 3px; /* Firefox */
+    -webkit-border-radius: 3px; /* Safari, Chrome */
+    -khtml-border-radius: 3px; /* KHTML */
+    border-radius: 3px; /* CSS3 */
+    cursor:pointer;}
+.fixed_uload_panel input[type=submit]:hover,
+.upload_pic input[type=submit]:hover{
+  background-color: #D68637;
+  border: 1px solid #A68504;
+  color: #ffffff;
+}

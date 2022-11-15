@@ -1,0 +1,21 @@
+.catalog-price {
+	 color:red;
+}
+
+.catalog-element img {
+	padding:30px;
+	max-width: 360px;
+	max-height: 400px;
+	width: auto;
+	height: auto;
+	background:#ffffff;
+	border: 1px solid #cccccc;
+	margin-right: 20px;
+	float: left;
+}
+
+.catalog-element td {color: #6699cc;}
+.catalog-element td i {color: #666666;}
+.catalog-element td i a:link {color: #666666; text-decoration: underline;}
+.catalog-element td i a:hover {color: #6699cc;}
+.catalog-element td i a:visited {color: #666666;}

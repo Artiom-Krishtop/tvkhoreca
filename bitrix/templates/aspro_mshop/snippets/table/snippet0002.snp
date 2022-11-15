@@ -1,0 +1,40 @@
+<table class="colored_table">
+<caption style="caption-side:top; text-align:left;" >Таблица 1</caption>
+<thead>
+<tr>
+	<td>
+		 #
+	</td>
+	<td>
+		 First Name
+	</td>
+	<td>
+		 Last Name
+	</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td>
+		 1
+	</td>
+	<td>
+		 Tim
+	</td>
+	<td>
+		 Tors
+	</td>
+</tr>
+<tr>
+	<td>
+		 2
+	</td>
+	<td>
+		 Denis
+	</td>
+	<td>
+		 Loner
+	</td>
+</tr>
+</tbody>
+</table>

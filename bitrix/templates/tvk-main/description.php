@@ -1,0 +1,1 @@
+<?$arTemplate = array("NAME"=>"Разводящая страница", "DESCRIPTION"=>"");?>

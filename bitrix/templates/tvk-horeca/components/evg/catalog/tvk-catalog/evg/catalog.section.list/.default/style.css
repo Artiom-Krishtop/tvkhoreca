@@ -1,0 +1,48 @@
+.tvk-catalog-section-list ul {
+list-style-image: url(/bitrix/templates/tvk-retail/images/ul-style-none.gif)!important;
+}
+
+.tvk-catalog-section-list ul li {
+font-size: 120%;
+margin-left:-40px; 
+padding-left:0;
+font-family: HattoriHanzo, Arial;
+}
+.tvk-catalog-section-list ul li ul li{
+font-weight: normal;
+margin-left:-20px; 
+padding-left:0;
+}
+
+.tvk-catalog-section-list ul li ul {
+list-style-image: url(/bitrix/templates/tvk-retail/images/ul-style.gif)!important;
+font-family: HattoriHanzoItalic, Arial;
+}
+
+.tvk-catalog-section-list li li {
+padding: 15px; 
+padding-left:0;
+border-bottom: 2px dotted #ccc;
+width: 360px;
+}
+
+.tvk-catalog-section-list li li a {
+font-weight: normal;
+font-size: 14pt;
+}
+
+.tvk-catalog-section-list li li a:link {
+color: #666;
+font-family: HattoriHanzoItalic, Arial;
+text-decoration: none;
+}
+
+.tvk-catalog-section-list li li a:visited {
+color: #666;
+}
+
+.tvk-catalog-section-list li li a:hover {
+text-decoration: underline;
+color: #0072bc;
+}
+

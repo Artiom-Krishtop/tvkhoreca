@@ -1,0 +1,45 @@
+#wrapper div.tabs {
+    display:none; 
+}
+#wrapper i > a {margin: 0 0 0 40px; color:#666; font-family: HattoriHanzoItalic, Arial; font-style:normal;} 
+
+#wrapper a.active {
+    color: #0072bc;
+    cursor: default;    
+    text-decoration: underline;
+}
+
+#wrapper div.active {
+    display:block;
+    width:100%;
+}
+
+
+
+
+.catalog-section-list li {
+padding: 20px; padding-left:0;
+margin-left: -30px;
+border-bottom: 2px dotted #ccc;
+width: 360px;
+font-family: HattoriHanzoItalic, Arial;
+}
+
+.catalog-section-list li a {
+font-weight: normal;
+}
+
+.catalog-section-list li a:link {
+color: #666;
+text-decoration: none;
+}
+
+.catalog-section-list li a:visited {
+color: #666;
+}
+
+.tvk-catalog-section-list li a:hover {
+text-decoration: underline;
+color: #0072bc;
+}
+

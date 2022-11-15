@@ -1,0 +1,34 @@
+.news-list td{
+	vertical-align: top;
+}
+
+.news-list td.news-date-time {
+	font-family: HattoriHanzoItalic, Arial;
+	font-size: 85%;
+	width: 150px;
+}
+
+.item-title {
+	font-family: HattoriHanzo, Arial;
+	font-style: normal;
+	font-size: 120%;
+}
+
+div.news-list a:hover > span.item-title {
+	text-decoration: underline;
+}
+
+a span.preview-text
+{
+	color: #666666;
+	font-size: 90%;
+	line-height: 110%;
+}
+
+.news-list a:hover {text-decoration: none;}
+
+.news-list td img {
+	border: 1px solid #cccccc;
+	padding: 10px;
+	background: #fff;
+}

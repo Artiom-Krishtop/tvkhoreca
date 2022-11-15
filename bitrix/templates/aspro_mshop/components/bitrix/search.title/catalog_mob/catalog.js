@@ -1,0 +1,2 @@
+$("#<?=$arParams["~INPUT_ID"]?>").focus(function() { $(this).parents("form").find("button[type='submit']").addClass("hover"); });
+$("#<?=$arParams["~INPUT_ID"]?>").blur(function() { $(this).parents("form").find("button[type='submit']").removeClass("hover"); });

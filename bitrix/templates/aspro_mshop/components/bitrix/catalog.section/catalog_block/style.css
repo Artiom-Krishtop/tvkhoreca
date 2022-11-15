@@ -1,0 +1,21 @@
+.like_icons{
+	display:none;
+}
+.bottom_nav{
+	position: relative;
+	top: 5px;
+	float: left;
+	width: 100%;
+}
+#content .right_block.fullwidth{
+	padding-left:unset;
+overflow: unset;
+}
+.catalog_block .catalog_item_wrapp .hover_block {
+	padding-top: 8px;
+}
+.catalog_block .item_wrap:not(.touch) .hover_block {
+	visibility: visible !important;
+	opacity: 1;
+	max-height: 500px;
+}

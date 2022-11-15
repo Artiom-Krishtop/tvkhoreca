@@ -1,0 +1,55 @@
+html, body, form
+{
+	margin: 0;
+	padding: 0;
+}
+
+html
+{
+	height:100%;
+}
+
+body
+{
+	height:auto !important;
+	min-height:70%;
+	min-width:1280px;
+	text-align:center;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+/*Font*/
+body
+{
+	font-size: 12px;
+	font-family: Tahoma, Verdana, Helvetica, Trebuchet MS, sans-serif;
+	color: #737373;
+	background-color: #ffffff;
+}
+
+/*Font in table*/
+table
+{
+	font-size:100%;
+}
+
+/*Links*/
+a {text-decoration: none;}
+a:link {color: #3890fa;}
+a:visited{color:#578cff;}
+a:active {color: #e6353a;}
+a:hover{color:#41be47;}
+
+#bgimg {
+	position:absolute;
+	z-index: -1;
+}
+
+#work-area
+{
+	position: absolute;
+	height: auto;
+	width: 100%;
+	bottom:70px;
+}

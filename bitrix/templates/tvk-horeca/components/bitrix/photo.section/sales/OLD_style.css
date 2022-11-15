@@ -1,0 +1,55 @@
+div.sales-section td {
+	padding:0; 
+	text-align: center;
+	vertical-align: middle;
+}
+
+div.sales-section td a.left-arrow, div.sales-section td a.right-arrow {
+	width:32px; 
+	height: 66px; 
+	display: block;
+}
+
+div.sales-section td a.left-arrow {
+	background: url(/bitrix/templates/tvk-retail/images/left-arrow.png) no-repeat;
+}
+
+div.sales-section td a.left-arrow:hover {
+	background: url(/bitrix/templates/tvk-retail/images/left-arrow-act.png) no-repeat;
+}
+
+div.sales-section td a.right-arrow {
+	background: url(/bitrix/templates/tvk-retail/images/right-arrow.png) no-repeat;
+}
+
+div.sales-section td a.right-arrow:hover {
+	background: url(/bitrix/templates/tvk-retail/images/right-arrow-act.png) no-repeat;
+}
+
+div.sales-section td img {
+	width: 273px;
+	border:1px solid #cccccc;
+}
+
+.sale-size {
+	width:69px;
+	height:70px;
+	background: url(/bitrix/templates/tvk-retail/images/sale-label.png) no-repeat;
+	color: #c00;
+	font-weight: bold;
+	font-style: italic;
+	position: absolute;
+	top: -5px; left:30px;
+	padding-top: 15px;
+}
+
+div.sales-section table.data-table tr.data-row {
+	border-top:none;
+	border-bottom:none;
+}
+
+div.sales-section table.data-table th.data-cell {
+	border-top:none;
+	border-bottom:none;
+	padding:2px 2px;
+}

@@ -1,0 +1,41 @@
+div.catalog-section-list li ul {list-style-image: url(/bitrix/templates/tvk-retail/images/ul-style.gif);}
+
+div.catalog-section-list ul {
+margin-left: 0; padding-left: 0;
+list-style:none;
+}
+
+.catalog-section-list ul li {
+font-weight: bold;
+font-size: 120%;
+}
+
+div.catalog-section-list li li:before {content: "> "; color: green; font-family: Times New Roman;}
+
+.catalog-section-list li li {
+padding: 20px; 
+border-bottom: 2px dotted #ccc; 
+display: block;
+width: 400px;
+}
+
+.catalog-section-list li li a {
+font-weight: normal;
+font-size: 14pt;
+}
+
+.catalog-section-list li li a:link {
+color: #666;
+font-style: italic;
+text-decoration: none;
+}
+
+.catalog-section-list li li a:visited {
+color: #666;
+}
+
+.catalog-section-list li li a:hover {
+text-decoration: underline;
+color: #0072bc;
+}
+

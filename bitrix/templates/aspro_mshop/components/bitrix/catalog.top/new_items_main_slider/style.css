@@ -1,0 +1,7 @@
+.specials_slider_wrapp .buttons_block .more_text {
+    display: none;
+}
+body .wrapper .specials_slider_wrapp .catalog_item .item_info .buttons_block {
+    margin-top: 5px;
+    display: block !important;
+}

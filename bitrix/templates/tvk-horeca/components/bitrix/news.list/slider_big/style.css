@@ -1,0 +1,38 @@
+div.new-item-list {position:relative;}
+
+div.new-item-list p {margin:0; padding:0;}
+
+div.new-item-list img {border: 1px solid #cccccc;}
+
+div.new-item-list div.new-item-title{
+	width:280px; 
+	height:auto;
+	position:absolute;
+	z-index: 999;
+	top:20px; left:20px;
+	background: rgba(255, 255, 255);
+	font-family: HattoriHanzo, Tahoma;
+	font-size: 40px;
+	padding: 25px;
+	line-height: 120%;
+}
+new-item-title h1{
+	color: #666666!important;
+ 	font-family: HattoriHanzo, Tahoma;	
+ 	line-height: 120%!important;	
+ 	font-size: 40px!important;	
+ 	padding: 0; margin:0!important;
+	}
+
+div.new-item-list a {text-decoration: none;}
+
+div.new-item-list a > h1 {
+	color: #666666;
+	font-family: HattoriHanzo, Tahoma;
+	line-height: 120%;
+	font-size: 40px;
+	padding: 0; margin:0;
+}
+
+#top-img {position: absolute; z-index: 999; top: 10px; right: 10px; width: 150px; height: auto;}
+#top-img img {border: none;}

@@ -1,0 +1,105 @@
+h1#page-title
+{
+	position:relative; 
+	font-size: 34px; 
+	color:#333333;  
+	margin:0; margin-bottom: 20px;
+	font-family: aavanteint_book, arial;
+	font-weight:normal;
+}
+
+.shifted
+{
+	margin-left: 160px;
+}
+
+h1
+{
+	font-family: aavanteint_book, arial; 
+	font-size:30px; 
+	color: #333333; 
+	letter-spacing: 1px; 
+	margin-bottom:15px;
+	line-height: 1.1; 
+	font-weight:normal;
+	padding-bottom: 0; margin-bottom: 0;
+}
+
+h2 {font:24px/24px HattoriHanzo, Arial, Helvetica, sans-serif; margin-bottom:; color:#;}
+h3 {font:30px/30px HattoriHanzo, Arial, Helvetica, sans-serif; margin-bottom:; color:#0072bc; margin:5px; padding:0;}
+h4 {font:20px/20px HattoriHanzo, Arial, Helvetica, sans-serif; margin-bottom:; color:#0072bc; margin:5px; padding:0;}
+h5 {font:18px/18px HattoriHanzo, Arial, Helvetica, sans-serif; margin-bottom:; color:#;}
+h6 {font:16px/16px HattoriHanzo, Arial, Helvetica, sans-serif; margin-bottom:; color:#;}
+
+.left-arrow a, .right-arrow a {width:32px; height:66px;}
+.left-arrow a:hover {background: url(images/left-arrow-act.png) no-repeat;}
+.left-arrow a:link {background: url(images/left-arrow.png) no-repeat;}
+.right-arrow a:hover {background: url(images/right-arrow-act.png) no-repeat;}
+.right-arrow a:link {background: url(images/right-arrow.png) no-repeat;}
+
+table.grey-table 
+{
+	border-bottom: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	background: #ffffff;
+}
+
+table.grey-table td
+{
+	border-top: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+	padding: 10px;
+}
+
+table.note
+{
+	font-size: 90%;
+	font-family: HattoriHanzoItalic, Arial;
+	color: #999999;
+}
+
+.all-news
+{
+	font-size: 90%;
+	font-family: HattoriHanzoItalic, Arial;
+	text-align: right;
+}
+
+div.recommended-products
+{
+	text-align: left;
+	width:376px; 
+	height:89px;
+	float: left;
+	margin: 10px 0 10px 20px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	position: relative;
+}
+
+.recommended-products img {border:  1px solid #ccc;}
+.recommended-products a:hover .arrow img {margin-top: -69px;}
+.recommended-products .arrow {
+	overflow: hidden; 
+	width: 50px; 
+	height: 69px; 
+	position: absolute;
+	top: 10px;
+	right: 1px;
+}
+
+.recommended-products .arrow img {border:none;}
+
+table.title
+{
+	color: #0072bc;
+	background: #fff; 
+	opacity: 0.75;
+	height: 59px;
+	max-width: 310px;
+	position: absolute;
+	top:17px;
+	left:10px;
+}
+
+.title td {vertical-align: middle; line-height: 0.9; }

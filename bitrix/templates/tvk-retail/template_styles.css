@@ -1,0 +1,267 @@
+@font-face {
+	font-family:"aavanteint_book";
+	!_src:url(/bitrix/fonts/aavanteint_book.ttf) format("truetype");
+	src:url(/bitrix/fonts/aavanteint_book.eot);
+src:local(aavanteint_book), url(/bitrix/fonts/aavanteint_book.ttf);
+}
+
+@font-face {
+	font-family:"aavantelt_light";
+	!_src:url(/bitrix/fonts/aavantelt_light.ttf) format("truetype");
+	src:url(/bitrix/fonts/aavantelt_light.eot);
+src:local(aavantelt_light), url(/bitrix/fonts/aavantelt_light.ttf);
+}
+
+@font-face {
+	font-family:"STIXGeneral";
+	src:url(/bitrix/fonts/STIXGeneral.otf) format("opentype");
+}
+
+html, body, form
+{
+	margin: 0;
+	padding: 0;
+}
+
+html
+{
+	height:100%;
+ overflow-x:  hidden;
+}
+
+body
+{
+	height:100% !important;
+	background: transparent url(images/page-bg.jpg) center;
+	margin:0 auto;
+}
+
+/*Font*/
+body
+{
+	font:14pt/14pt STIXGeneral, Times New Roman; 
+	color:#666666;
+	line-height: 125%;
+}
+
+hr.thin {height: 1px; color: #fff; border: none; border-top: 1px solid #ccc;}
+
+/*Font in table*/
+table
+{
+	font-size:100%;
+}
+
+td 
+{
+	padding: 10px;
+	vertical-align: top;
+}
+
+td.note {width: 25%; color: #999; font-style: italic;}
+
+/*Links*/
+a {text-decoration:none;}
+a:hover{text-decoration: underline;}
+a:link {color: #0072bc;}
+a:visited {color: #0072bc;}
+a:active {color: #0072bc;}
+
+
+.page
+{
+	height: auto !important;
+	width:1280px; 
+	margin:0 auto;
+	text-align:center;  
+	background:#f5f5f5;
+	-moz-box-shadow: 0 0 15px rgba(0,0,0,0.5); /* Для Firefox */
+	-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+	box-shadow: 0 0 15px rgba(0,0,0,0.5); /* Параметры тени */
+}
+
+#header
+{
+	position: relative; /*containing block*/
+	height: 190px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+#company_logo
+{
+	width:244px; 
+	height:184px; 
+	background:url(images/tvk-logo.png) no-repeat; 
+	position:absolute; 
+	left:60px;
+	top:-10px;
+}
+
+#company-contacts
+{
+	width: 600px;
+	margin-left: 400px;
+	margin-top: 20px;
+	float: left; 
+}
+
+#company-contacts td
+{
+	font: 14pt/14pt STIXGeneral, Times New Roman;
+	font-style: italic; 
+	color: #333;
+}
+
+/* Header menu: home, print, feedback*/
+#header_menu
+{
+	position: absolute;
+	right: 40px;
+	top: 15px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+#header_menu a{display: block;} 
+
+#login
+{
+	font-size: 70%; 
+	vertical-align: middle;
+}
+
+#top-menu
+{
+	position:absolute; 
+	top:70px; 
+	right: 0px;
+	width: 1240px; 
+	margin: 0 20px; 
+	background: #1675b8; /* Для старых браузров */
+        background: -moz-linear-gradient(top, #229ad9, #0659a5); /* Firefox 3.6+ */    /* Chrome 1-9, Safari 4-5 */
+        background: -webkit-gradient(linear, top left, bottom left, color-stop(0%,#229ad9), color-stop(100%,#0659a5));    /* Chrome 10+, Safari 5.1+ */
+        background: -webkit-linear-gradient(top, #229ad9, #0659a5);
+        background: -o-linear-gradient(top, #229ad9, #0659a5); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, #229ad9, #0659a5); /* IE10 */
+        background: linear-gradient(top, #229ad9, #0659a5); /* CSS3 */
+        border-radius: 7px;
+}
+
+#search
+{
+	width: 930px;
+	position: absolute;
+	top: 140px;
+	margin-left: 330px;
+	text-align: right;
+	font: 12px/12px Arial;
+	color: #333;
+}
+
+div.search-form td {padding: 0 0 0 4px;}
+
+#navigation
+{
+	font-size: 90%;
+	font-style: italic;
+}
+
+#work-area
+{
+	margin:0px; padding:0;
+}
+
+#work-area p
+{
+	margin:0 0 20px 0; 
+}
+
+.work-area ul
+{
+	margin:0 0 20px 0; 
+	list-style-image:url(images/ul-style.gif);
+}
+
+#work-area ol li
+{
+	list-style:decimal; 
+	margin-left:20px;
+}
+
+.work-area #l-col
+{
+	width:320px; 
+	float:left; 
+	text-align:left;
+	margin-left: 20px;
+}
+
+.work-area #r-col
+{
+	width:910px; 
+	text-align:left;
+	margin-left:347px; 
+	height: auto !importan;
+	min-height: 40%;
+}
+
+#extra
+{
+	width: 1240px; 
+	margin:0 auto; 
+	text-align:center; 
+	position:relative;
+	color: #666666;
+	font-size: 100%;
+	padding: 20px; padding-top:0;
+}
+
+/*Footer*/
+#footer
+{
+	width: 1240px; 
+	margin:0 auto; 
+	text-align:center; 
+	position:relative;
+	bottom:0;
+	padding: 20px;
+}
+
+#footer hr
+{
+	height: 5px;
+	background: #1675b8; /* Для старых браузров */
+        background: -moz-linear-gradient(top, #229ad9, #0659a5); /* Firefox 3.6+ */    /* Chrome 1-9, Safari 4-5 */
+        background: -webkit-gradient(linear, top left, bottom left, color-stop(0%,#229ad9), color-stop(100%,#0659a5));    /* Chrome 10+, Safari 5.1+ */
+        background: -webkit-linear-gradient(top, #229ad9, #0659a5);
+        background: -o-linear-gradient(top, #229ad9, #0659a5); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, #229ad9, #0659a5); /* IE10 */
+        background: linear-gradient(top, #229ad9, #0659a5); /* CSS3 */
+        border-radius: 2px;
+        border: none;
+}
+
+#footer table td {color: 666666; font-size: 12pt; padding:0; vertical-align: middle;}
+
+.copy 
+{
+	width:39%; 
+	line-height: 115%;
+	text-align: left;
+}
+
+.phone 
+{ 
+	margin-left: 30px; 
+	width:42%; 
+	line-height: 155%;
+	text-align: left;
+}
+
+.create 
+{
+	text-align: right;
+}
+
+.create td {line-height: 115%;}

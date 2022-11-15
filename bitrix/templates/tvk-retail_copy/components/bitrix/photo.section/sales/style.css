@@ -1,0 +1,72 @@
+div.sales-section {height: 200px;}
+
+div.sales-section li {
+	padding:0; 
+	text-align: center;
+	vertical-align: middle;
+}
+
+div.sales-section li a.left-arrow, div.sales-section li a.right-arrow {
+	width:32px; 
+	height: 66px; 
+	display: block;
+}
+
+div.sales-section li a.left-arrow {
+	background: url(/bitrix/templates/tvk-retail/images/left-arrow.png) no-repeat;
+}
+
+
+
+div.sales-section li a.right-arrow {
+	background: url(/bitrix/templates/tvk-retail/images/right-arrow.png) no-repeat;
+}
+
+
+
+div.sales-section li img {
+	width: 273px;
+	border:1px solid #ccc;
+}
+
+.sale-size {
+	width:69px;
+	height:70px;
+	background: url(/bitrix/templates/tvk-retail_copy/images/sale-label.png) no-repeat;
+	color: #c00;
+	font-weight: bold;
+	font-style: italic;
+	position: absolute;
+	top: -5px; left:30px;
+	padding-top: 15px;
+}
+
+div.sales-section table.data-table tr.data-row {
+	border-top:none;
+	border-bottom:none;
+}
+
+div.sales-section table.data-table th.data-cell {
+	border-top:none;
+	border-bottom:none;
+	padding:2px 2px;
+}
+
+
+/******/
+
+.jcarousel-skin-tango a.left-arrow, .jcarousel-skin-tango a.right-arrow {
+	width:32px; 
+	height: 66px; 
+	margin-top: 16px;
+	display: block;
+}
+
+.jcarousel-skin-tango a.left-arrow {
+	background: url(/bitrix/templates/tvk-retail_copy/images/left-arrow.png) no-repeat;
+}
+
+
+.jcarousel-skin-tango a.right-arrow {
+	background: url(/bitrix/templates/tvk-retail_copy/images/right-arrow.png) no-repeat;
+}

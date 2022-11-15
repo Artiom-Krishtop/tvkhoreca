@@ -1,0 +1,11 @@
+.webformat-section-detail{
+	margin: 0 0 15px 0;
+    padding:0;
+}
+.webformat-section-detail a.pic, .webformat-section-detail img{
+    float:left;
+}
+.webformat-section-detail img{
+    margin: 0 15px 15px 0;
+    padding: 0;
+}

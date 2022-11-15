@@ -1,0 +1,67 @@
+.info_item .top_info .article{
+	font-size: 16px !important;
+	line-height: 24px !important;
+}
+.info_item .top_info .article .value{
+	background:none
+}
+.catalog_detail .tabs_section.half{
+	margin: -10px 0px 0px;
+	width: 48%;
+	display: inline-block;
+	float: left;
+}
+.catalog_detail .semi_propducts{
+	width: 50%;
+	display: inline-block;
+	margin-top: -10px;
+	padding-left: 20px;
+}
+.catalog_detail .semi_propducts .top_block{
+	padding: 0px;
+}
+.catalog_detail .semi_propducts ul.slider_navigation.top_big{
+	top:-60px;
+}
+
+@media all and (max-width: 768px){
+	.catalog_detail .tabs_section.half, .catalog_detail .semi_propducts{
+		width: auto;
+		display: block;
+		position: relative;
+	}
+}
+.prices_block .sale_block .text,.prices_block .sale_block .value{
+	float: left;
+	background: #ffd02e;
+	padding: 4px 8px 3px;
+	font-size: 16px;
+	line-height: 40px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 25px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	height: 40px;
+	vertical-align: middle
+}
+.info_item .middle_info .prices_block{
+	width: 100%
+}
+.info_item .middle_info .prices .discount * {
+	font-size: 48px
+}
+.info_item .middle_info .item-stock{
+	float: left;
+	min-width: 500px
+}
+.preview_text .char{
+	width: 100%;
+	min-width: auto
+}
+.preview_text .char .char_name,.preview_text .char .char_value{
+	width:50%
+}
+.catalog_detail .element_detail_text{
+	display:none
+}

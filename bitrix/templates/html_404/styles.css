@@ -1,0 +1,40 @@
+/*Reset*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p,
+pre, a, address, code, del, dfn, em, img, dl, dd, dt, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, td, th, tr {
+	border: none;
+	margin: 0px;
+	padding: 0px;
+}
+table {
+	border-collapse: collapse;
+}
+
+
+
+
+/*   Typography    */
+h1 {
+	margin: 0px 0px 15px 0px;
+	font: bold 22px/22px Arial,Helvetica,sans-serif;
+	color: #333;
+}
+p {
+	margin: 10px 0px;
+	font: 13px/16px Arial,Helvetica,sans-serif;
+	color: #333;
+}
+a {
+	color: #0f0fef;
+	text-decoration: underline;
+}
+a:hover {
+	color: #ff0000;
+	text-decoration: underline;
+}
+ul li {
+	padding: 0px 0px 0px 20px;
+	margin: 7px 0px;
+	list-style: none;
+	background: url('images/li.gif') no-repeat left 9px;
+}

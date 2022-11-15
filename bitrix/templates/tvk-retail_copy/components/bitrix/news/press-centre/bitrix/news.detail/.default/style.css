@@ -1,0 +1,20 @@
+div.news-detail {text-align: justify;}
+
+div.news-detail p {padding-top: 0; margin-top:0;}
+
+div.news-detail img {margin:5px 10px;}
+
+div.news-detail td img {margin:5px 10px; border: 1px solid #cccccc;}
+
+div.news-detail img.detail_picture
+{
+	float:left;
+	margin:0 8px 6px 1px;
+	border: 1px solid #cccccc;
+}
+.news-date-time
+{
+	color:#999999;
+	font-style:italic;
+	text-align: right;
+}

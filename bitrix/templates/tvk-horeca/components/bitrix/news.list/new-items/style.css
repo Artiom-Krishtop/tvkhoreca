@@ -1,0 +1,26 @@
+div.new-item-list {position:relative;}
+
+div.new-item-list p {margin:0; padding:0;}
+
+div.new-item-list img {border: 1px solid #cccccc;}
+
+div.new-item-list div.new-item-title{
+	width:280px; height:auto;
+	position:absolute;
+	top:20px; left:20px;
+	background: rgba(255, 255, 255, 0.75);
+	font-family: HattoriHanzo, Times new roman;
+	font-size: 40px;
+	padding: 25px;
+	line-height: 120%;
+}
+
+div.new-item-list a {text-decoration: none;}
+
+div.new-item-list a > h1 {
+	color: #666666;
+	font-family: HattoriHanzo, Times new roman;
+	line-height: 120%;
+	font-size: 40px;
+	padding: 0; margin:0;
+}

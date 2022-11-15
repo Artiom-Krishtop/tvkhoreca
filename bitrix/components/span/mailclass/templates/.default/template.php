@@ -1,0 +1,3 @@
+<?if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true) die();?>
+<a target="_blank" class="mrc__plugin_uber_like_button" href="http://connect.mail.ru/share" data-mrc-config="{'type' : 'button', 'caption-mm' : '<?=$arParams['MailButton']?>', 'caption-ok' : '<?=$arParams['ClassButton']?>', 'counter' : 'true', 'text' : 'true', 'width' : '100%'}">Нравится</a>
+<script src="http://cdn.connect.mail.ru/js/loader.js" type="text/javascript" charset="UTF-8"></script>

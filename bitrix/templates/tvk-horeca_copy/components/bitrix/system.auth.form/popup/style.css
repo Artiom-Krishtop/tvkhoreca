@@ -1,0 +1,20 @@
+#login-form-window
+{
+	display:none;
+	border:1px solid #939393;
+	background:#FFF;
+	padding:10px;
+	z-index:10000;
+	position:absolute;
+	top:50px;
+	right:15%;
+	width:200px;
+	color: #231f20;
+	font-size: 70%;
+}
+
+#login-form-window td {padding:0;}
+
+#login-form-window form {
+float: left;
+}

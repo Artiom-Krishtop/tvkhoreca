@@ -1,0 +1,2 @@
+<a href="mailto:horeca@tvk.by">t</a><a href="mailto:vkhoreca@tvk.by">vkhoreca@tvk.by</a>&nbsp;- для заказов и вопросов по сотрудничеству<br>
+ <a href="mailto:h@tvk.by">h</a><a href="mailto:r@tvk.by">r@tvk.by</a>&nbsp;- для резюме<br>

@@ -1,0 +1,13 @@
+#login-form-window-float
+{
+	display:none;
+	border:1px solid #939393;
+	background:#FFF;
+	padding:10px;
+	z-index:10000;
+	position:absolute;
+	top:80px;
+	right:10%;
+	width:200px;
+	color: #231f20;
+}

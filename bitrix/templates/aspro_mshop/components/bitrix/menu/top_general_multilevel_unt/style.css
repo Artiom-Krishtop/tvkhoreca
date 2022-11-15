@@ -1,0 +1,20 @@
+ul.menu li.more a .has_sub {
+	display:none;
+}
+.catalog_menu .first .child{
+	margin-left: 0px !important;
+}
+/*.catalog_menu .last .child{
+	margin-left: -132px !important;
+}
+ul.menu li.last .child.line .child_wrapp > a .has_sub{
+float: left;
+margin-right: 10px;
+padding-left: 0px; 
+color: #919191;
+transform:rotate( 180deg);
+}
+
+.catalog_menu .last .child .depth3{
+margin-left: -129px !important;
+}*/

@@ -1,0 +1,50 @@
+div.producers-logos td {
+	padding:0;
+	vertical-align: middle;
+}
+
+div.producers-logos td.item-cell {
+	background:#fff;
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	text-align: center;
+	height: 100px;
+}
+
+div.producers-logos td a.left-arrow, div.producers-logos td a.right-arrow{
+	width:32px; 
+	height: 66px; 
+	display: block;
+}
+
+div.producers-logos td a.left-arrow{
+	background: url(/bitrix/templates/tvk-retail/images/left-arrow.png) no-repeat;
+}
+
+div.producers-logos td a.left-arrow:hover{
+	background: url(/bitrix/templates/tvk-retail/images/left-arrow-act.png) no-repeat;
+}
+
+div.producers-logos td a.right-arrow{
+	background: url(/bitrix/templates/tvk-retail/images/right-arrow.png) no-repeat;
+}
+
+div.producers-logos td a.right-arrow:hover{
+	background: url(/bitrix/templates/tvk-retail/images/right-arrow-act.png) no-repeat;
+}
+
+div.producers-logos td img{
+	max-height: 70px;
+	width: auto; 
+}
+
+div.producers-logos table.data-table tr.data-row {
+	border-top:none;
+	border-bottom:none;
+}
+
+div.producers-logos table.data-table th.data-cell {
+	border-top:none;
+	border-bottom:none;
+	padding:2px 2px;
+}
