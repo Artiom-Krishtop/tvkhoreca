@@ -2,28 +2,10 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Подписка на новости");
 ?>
-<div class="left_block">
-	<?$APPLICATION->IncludeComponent("bitrix:menu", "left_menu", array(
-		"ROOT_MENU_TYPE" => "left",
-		"MENU_CACHE_TYPE" => "A",
-		"MENU_CACHE_TIME" => "3600",
-		"MENU_CACHE_USE_GROUPS" => "Y",
-		"MENU_CACHE_GET_VARS" => array(
-		),
-		"MAX_LEVEL" => "1",
-		"CHILD_MENU_TYPE" => "left",
-		"USE_EXT" => "N",
-		"DELAY" => "N",
-		"ALLOW_MULTI_SELECT" => "N"
-		),
-		false
-	);?>	
-</div>
-<div class="right_block">
-	<?$APPLICATION->IncludeComponent(
-	"bitrix:subscribe.edit", 
-	"main", 
-	array(
+<?$APPLICATION->IncludeComponent(
+	"bitrix:subscribe.edit",
+	"main",
+	Array(
 		"AJAX_MODE" => "N",
 		"SHOW_HIDDEN" => "N",
 		"ALLOW_ANONYMOUS" => "Y",
@@ -34,13 +16,33 @@ $APPLICATION->SetTitle("Подписка на новости");
 		"AJAX_OPTION_SHADOW" => "Y",
 		"AJAX_OPTION_JUMP" => "N",
 		"AJAX_OPTION_STYLE" => "Y",
-		"AJAX_OPTION_HISTORY" => "N",
-		"COMPONENT_TEMPLATE" => "main",
-		"AJAX_OPTION_ADDITIONAL" => "undefined",
-		"COMPOSITE_FRAME_MODE" => "A",
-		"COMPOSITE_FRAME_TYPE" => "AUTO"
+		"AJAX_OPTION_HISTORY" => "N"
 	),
-	false
+false
 );?>
-</div>
+<?if((CMax::checkVersionModule('16.5.3', 'catalog') && !$GLOBALS['USER']->isAuthorized()) || $GLOBALS['USER']->isAuthorized()):?>
+	<script src="<?=SITE_TEMPLATE_PATH.'/js/phoneorlogin.min.js'?>"></script>
+	<?$APPLICATION->IncludeComponent(
+		"bitrix:catalog.product.subscribe.list",
+		"main",
+		Array(
+			"PRICE_CODE" => array(
+				0 => "BASE",
+			),
+			"SHOW_PRICE_COUNT" => "1",
+			"PRICE_VAT_INCLUDE" => "Y",
+			"PRICE_VAT_SHOW_VALUE" => "N",
+			"CONVERT_CURRENCY" => "Y",
+			"CURRENCY_ID" => "RUB",
+			"SHOW_OLD_PRICE" => "Y",
+			"OFFER_HIDE_NAME_PROPS" => "N",
+			"SHOW_MEASURE" => "Y",
+			"DISPLAY_COMPARE" => "Y",
+			"CACHE_TIME" => "3600",
+			"CACHE_TYPE" => "A",
+			"LINE_ELEMENT_COUNT" => "3"
+		),
+		false
+	);?>
+<?endif;?>
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

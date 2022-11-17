@@ -1,4 +1,6 @@
 <?
 $sSectionName = "Корзина";
-$arDirProperties = Array();
+$arDirProperties = Array(
+	"HIDE_LEFT_BLOCK" => "Y"
+);
 ?>

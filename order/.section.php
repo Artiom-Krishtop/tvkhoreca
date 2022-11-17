@@ -1,6 +1,6 @@
 <?
-$sSectionName = "Оформление предварительного заказа";
+$sSectionName = "Оформление заказа";
 $arDirProperties = Array(
-
+	"HIDE_LEFT_BLOCK" => "Y"
 );
 ?>

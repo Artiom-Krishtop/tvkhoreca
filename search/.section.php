@@ -1,6 +1,6 @@
 <?
-$arDirProperties = Array(
-   "description" => "Мы предлагаем широкий ассортимент качественного инструмента по адекватным ценам.",
-   "keywords" => "инструмент, купить инструмент, электроинструмент, бензоинструмент"
+$sSectionName = "Поиск";
+$arDirProperties = array(
+   "HIDE_LEFT_BLOCK" => "Y"
 );
 ?>

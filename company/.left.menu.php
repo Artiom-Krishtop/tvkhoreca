@@ -2,7 +2,42 @@
 $aMenuLinks = Array(
 	Array(
 		"О компании", 
-		"/company/", 
+		"/company/index.php", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Новости", 
+		"/company/news/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Команда", 
+		"/company/staff/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Отзывы", 
+		"/company/reviews/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Карьера", 
+		"/company/vacancy/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Контакты", 
+		"/contacts/", 
 		Array(), 
 		Array(), 
 		"" 
@@ -15,15 +50,15 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
-		"Реквизиты", 
-		"/company/requisites/", 
+		"Лицензии", 
+		"/company/licenses/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Контакты", 
-		"/contacts/", 
+		"Документы", 
+		"/company/docs/", 
 		Array(), 
 		Array(), 
 		"" 

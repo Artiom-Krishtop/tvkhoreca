@@ -48,12 +48,12 @@ $arUrlRewrite=array (
     'PATH' => '/personal/history-of-orders/index.php',
     'SORT' => 100,
   ),
-  6 => 
+  8 => 
   array (
-    'CONDITION' => '#^/horeca/company/vacancies/#',
+    'CONDITION' => '#^/site_ai/company/partners/#',
     'RULE' => '',
     'ID' => 'bitrix:news',
-    'PATH' => '/horeca/company/vacancies/index.php',
+    'PATH' => '/site_ai/company/partners/index.php',
     'SORT' => 100,
   ),
   11 => 
@@ -62,6 +62,22 @@ $arUrlRewrite=array (
     'RULE' => '',
     'ID' => 'bitrix:news',
     'PATH' => '/retail/company/vacansies/index.php',
+    'SORT' => 100,
+  ),
+  7 => 
+  array (
+    'CONDITION' => '#^/retail/company/producers/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/retail/company/producers/index.php',
+    'SORT' => 100,
+  ),
+  6 => 
+  array (
+    'CONDITION' => '#^/horeca/company/vacancies/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/horeca/company/vacancies/index.php',
     'SORT' => 100,
   ),
   10 => 
@@ -80,28 +96,12 @@ $arUrlRewrite=array (
     'PATH' => '/retail/company/vacancies/index.php',
     'SORT' => 100,
   ),
-  8 => 
+  15 => 
   array (
-    'CONDITION' => '#^/site_ai/company/partners/#',
+    'CONDITION' => '#^/company/partners/retail/#',
     'RULE' => '',
     'ID' => 'bitrix:news',
-    'PATH' => '/site_ai/company/partners/index.php',
-    'SORT' => 100,
-  ),
-  7 => 
-  array (
-    'CONDITION' => '#^/retail/company/producers/#',
-    'RULE' => '',
-    'ID' => 'bitrix:news',
-    'PATH' => '/retail/company/producers/index.php',
-    'SORT' => 100,
-  ),
-  12 => 
-  array (
-    'CONDITION' => '#^/site_ai/company/history/#',
-    'RULE' => '',
-    'ID' => 'bitrix:news',
-    'PATH' => '/site_ai/company/history/index.php',
+    'PATH' => '/company/partners/retail/index.php',
     'SORT' => 100,
   ),
   13 => 
@@ -120,20 +120,20 @@ $arUrlRewrite=array (
     'PATH' => '/site_ai/company/vacancy/index.php',
     'SORT' => 100,
   ),
-  15 => 
-  array (
-    'CONDITION' => '#^/company/partners/retail/#',
-    'RULE' => '',
-    'ID' => 'bitrix:news',
-    'PATH' => '/company/partners/retail/index.php',
-    'SORT' => 100,
-  ),
   16 => 
   array (
     'CONDITION' => '#^/horeca/company/articles/#',
     'RULE' => '',
     'ID' => 'bitrix:news',
     'PATH' => '/horeca/company/articles/index.php',
+    'SORT' => 100,
+  ),
+  12 => 
+  array (
+    'CONDITION' => '#^/site_ai/company/history/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/site_ai/company/history/index.php',
     'SORT' => 100,
   ),
   17 => 
@@ -152,14 +152,6 @@ $arUrlRewrite=array (
     'PATH' => '/site_ai/company/staff/index.php',
     'SORT' => 100,
   ),
-  20 => 
-  array (
-    'CONDITION' => '#^/site_ai/info/articles/#',
-    'RULE' => '',
-    'ID' => 'bitrix:news',
-    'PATH' => '/site_ai/info/articles/index.php',
-    'SORT' => 100,
-  ),
   19 => 
   array (
     'CONDITION' => '#^/horeca/company/shares/#',
@@ -176,28 +168,20 @@ $arUrlRewrite=array (
     'PATH' => '/home/company/partners/index.php',
     'SORT' => 100,
   ),
+  20 => 
+  array (
+    'CONDITION' => '#^/site_ai/info/articles/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/site_ai/info/articles/index.php',
+    'SORT' => 100,
+  ),
   22 => 
   array (
     'CONDITION' => '#^/home/company/history/#',
     'RULE' => '',
     'ID' => 'bitrix:news',
     'PATH' => '/home/company/history/index.php',
-    'SORT' => 100,
-  ),
-  23 => 
-  array (
-    'CONDITION' => '#^/home/company/vacancy/#',
-    'RULE' => '',
-    'ID' => 'bitrix:news.list',
-    'PATH' => '/company/vacancy/index.php',
-    'SORT' => 100,
-  ),
-  24 => 
-  array (
-    'CONDITION' => '#^/home/company/vacancy/#',
-    'RULE' => '',
-    'ID' => 'bitrix:news',
-    'PATH' => '/home/company/vacancy/index.php',
     'SORT' => 100,
   ),
   25 => 
@@ -208,12 +192,28 @@ $arUrlRewrite=array (
     'PATH' => '/home/company/carriers/index.php',
     'SORT' => 100,
   ),
+  23 => 
+  array (
+    'CONDITION' => '#^/home/company/vacancy/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news.list',
+    'PATH' => '/company/vacancy/index.php',
+    'SORT' => 100,
+  ),
   26 => 
   array (
     'CONDITION' => '#^/home/company/history/#',
     'RULE' => '',
     'ID' => 'bitrix:news',
     'PATH' => '/company/carriers/index.php',
+    'SORT' => 100,
+  ),
+  24 => 
+  array (
+    'CONDITION' => '#^/home/company/vacancy/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/home/company/vacancy/index.php',
     'SORT' => 100,
   ),
   27 => 
@@ -232,28 +232,12 @@ $arUrlRewrite=array (
     'PATH' => '/horeca/company/news/index.php',
     'SORT' => 100,
   ),
-  30 => 
-  array (
-    'CONDITION' => '#^/site_ai/info/stock/#',
-    'RULE' => '',
-    'ID' => 'bitrix:news',
-    'PATH' => '/site_ai/info/stock/index.php',
-    'SORT' => 100,
-  ),
   32 => 
   array (
     'CONDITION' => '#^/home/info/articles/#',
     'RULE' => '',
     'ID' => 'bitrix:news',
     'PATH' => '/home/info/articles/index.php',
-    'SORT' => 100,
-  ),
-  31 => 
-  array (
-    'CONDITION' => '#^/home/company/staff/#',
-    'RULE' => '',
-    'ID' => 'bitrix:news',
-    'PATH' => '/home/company/staff/index.php',
     'SORT' => 100,
   ),
   29 => 
@@ -264,12 +248,20 @@ $arUrlRewrite=array (
     'PATH' => '/horeca/catalog-new/index.php',
     'SORT' => 100,
   ),
-  33 => 
+  31 => 
   array (
-    'CONDITION' => '#^/online/(/?)([^/]*)#',
+    'CONDITION' => '#^/home/company/staff/#',
     'RULE' => '',
-    'ID' => '',
-    'PATH' => '/desktop_app/router.php',
+    'ID' => 'bitrix:news',
+    'PATH' => '/home/company/staff/index.php',
+    'SORT' => 100,
+  ),
+  30 => 
+  array (
+    'CONDITION' => '#^/site_ai/info/stock/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/site_ai/info/stock/index.php',
     'SORT' => 100,
   ),
   34 => 
@@ -280,52 +272,20 @@ $arUrlRewrite=array (
     'PATH' => '/site_ai/info/news/index.php',
     'SORT' => 100,
   ),
-  37 => 
+  33 => 
   array (
-    'CONDITION' => '#^/site_ai/info/faq/#',
+    'CONDITION' => '#^/online/(/?)([^/]*)#',
+    'RULE' => '',
+    'ID' => '',
+    'PATH' => '/desktop_app/router.php',
+    'SORT' => 100,
+  ),
+  110 => 
+  array (
+    'CONDITION' => '#^/company/licenses/#',
     'RULE' => '',
     'ID' => 'bitrix:news',
-    'PATH' => '/site_ai/info/faq/index.php',
-    'SORT' => 100,
-  ),
-  39 => 
-  array (
-    'CONDITION' => '#^/site_ai/projects/#',
-    'RULE' => '',
-    'ID' => 'bitrix:news',
-    'PATH' => '/site_ai/projects/index.php',
-    'SORT' => 100,
-  ),
-  35 => 
-  array (
-    'CONDITION' => '#^/site_wz/products/#',
-    'RULE' => '',
-    'ID' => 'bitrix:catalog',
-    'PATH' => '/site_wz/products/index.php',
-    'SORT' => 100,
-  ),
-  95 => 
-  array (
-    'CONDITION' => '#^/company/partners/#',
-    'RULE' => '',
-    'ID' => 'bitrix:news',
-    'PATH' => '/company/partners/index.php',
-    'SORT' => 100,
-  ),
-  40 => 
-  array (
-    'CONDITION' => '#^/site_ai/services/#',
-    'RULE' => '',
-    'ID' => 'bitrix:news',
-    'PATH' => '/site_ai/services/index.php',
-    'SORT' => 100,
-  ),
-  38 => 
-  array (
-    'CONDITION' => '#^/stssync/calendar/#',
-    'RULE' => '',
-    'ID' => 'bitrix:stssync.server',
-    'PATH' => '/bitrix/services/stssync/calendar/index.php',
+    'PATH' => '/company/licenses/index.php',
     'SORT' => 100,
   ),
   41 => 
@@ -336,12 +296,60 @@ $arUrlRewrite=array (
     'PATH' => '/site_wz/services/index.php',
     'SORT' => 100,
   ),
-  42 => 
+  39 => 
   array (
-    'CONDITION' => '#^/contacts/stores/#',
+    'CONDITION' => '#^/site_ai/projects/#',
     'RULE' => '',
-    'ID' => 'bitrix:catalog.store',
-    'PATH' => '/contacts/stores/index.php',
+    'ID' => 'bitrix:news',
+    'PATH' => '/site_ai/projects/index.php',
+    'SORT' => 100,
+  ),
+  38 => 
+  array (
+    'CONDITION' => '#^/stssync/calendar/#',
+    'RULE' => '',
+    'ID' => 'bitrix:stssync.server',
+    'PATH' => '/bitrix/services/stssync/calendar/index.php',
+    'SORT' => 100,
+  ),
+  95 => 
+  array (
+    'CONDITION' => '#^/company/partners/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/company/partners/index.php',
+    'SORT' => 100,
+  ),
+  35 => 
+  array (
+    'CONDITION' => '#^/site_wz/products/#',
+    'RULE' => '',
+    'ID' => 'bitrix:catalog',
+    'PATH' => '/site_wz/products/index.php',
+    'SORT' => 100,
+  ),
+  40 => 
+  array (
+    'CONDITION' => '#^/site_ai/services/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/site_ai/services/index.php',
+    'SORT' => 100,
+  ),
+  37 => 
+  array (
+    'CONDITION' => '#^/site_ai/info/faq/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/site_ai/info/faq/index.php',
+    'SORT' => 100,
+  ),
+  105 => 
+  array (
+    'CONDITION' => '#^/company/vacancy/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/company/vacancy/index.php',
     'SORT' => 100,
   ),
   43 => 
@@ -352,14 +360,6 @@ $arUrlRewrite=array (
     'PATH' => '/horeca/partners/index.php',
     'SORT' => 100,
   ),
-  44 => 
-  array (
-    'CONDITION' => '#^/home/info/stock/#',
-    'RULE' => '',
-    'ID' => 'bitrix:news',
-    'PATH' => '/home/info/stock/index.php',
-    'SORT' => 100,
-  ),
   45 => 
   array (
     'CONDITION' => '#^/site_ai/catalog/#',
@@ -368,12 +368,36 @@ $arUrlRewrite=array (
     'PATH' => '/site_ai/catalog/index.php',
     'SORT' => 100,
   ),
-  46 => 
+  44 => 
   array (
-    'CONDITION' => '#^/retail/catalog/#',
+    'CONDITION' => '#^/home/info/stock/#',
     'RULE' => '',
-    'ID' => 'evg:catalog',
-    'PATH' => '/site_wz/retail/catalog/index.php',
+    'ID' => 'bitrix:news',
+    'PATH' => '/home/info/stock/index.php',
+    'SORT' => 100,
+  ),
+  42 => 
+  array (
+    'CONDITION' => '#^/contacts/stores/#',
+    'RULE' => '',
+    'ID' => 'bitrix:catalog.store',
+    'PATH' => '/contacts/stores/index.php',
+    'SORT' => 100,
+  ),
+  111 => 
+  array (
+    'CONDITION' => '#^/company/reviews/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/company/reviews/index.php',
+    'SORT' => 100,
+  ),
+  51 => 
+  array (
+    'CONDITION' => '#^/home/info/news/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/home/info/news/index.php',
     'SORT' => 100,
   ),
   47 => 
@@ -392,14 +416,6 @@ $arUrlRewrite=array (
     'PATH' => '/catalog/horeca/index.php',
     'SORT' => 100,
   ),
-  49 => 
-  array (
-    'CONDITION' => '#^/catalog/retail/#',
-    'RULE' => '',
-    'ID' => 'bitrix:catalog',
-    'PATH' => '/catalog/retail/index.php',
-    'SORT' => 100,
-  ),
   50 => 
   array (
     'CONDITION' => '#^/personal/order/#',
@@ -408,20 +424,20 @@ $arUrlRewrite=array (
     'PATH' => '/personal/order/index.php',
     'SORT' => 100,
   ),
-  51 => 
+  49 => 
   array (
-    'CONDITION' => '#^/home/info/news/#',
+    'CONDITION' => '#^/catalog/retail/#',
     'RULE' => '',
-    'ID' => 'bitrix:news',
-    'PATH' => '/home/info/news/index.php',
+    'ID' => 'bitrix:catalog',
+    'PATH' => '/catalog/retail/index.php',
     'SORT' => 100,
   ),
-  55 => 
+  46 => 
   array (
-    'CONDITION' => '#^/horeca/catalog#',
+    'CONDITION' => '#^/retail/catalog/#',
     'RULE' => '',
     'ID' => 'evg:catalog',
-    'PATH' => '/horeca/catalog/index.php',
+    'PATH' => '/site_wz/retail/catalog/index.php',
     'SORT' => 100,
   ),
   54 => 
@@ -430,14 +446,6 @@ $arUrlRewrite=array (
     'RULE' => '',
     'ID' => 'bitrix:news',
     'PATH' => '/home/info/faq/index.php',
-    'SORT' => 100,
-  ),
-  100 => 
-  array (
-    'CONDITION' => '#^/info/articles/#',
-    'RULE' => '',
-    'ID' => 'bitrix:news',
-    'PATH' => '/info/articles/index.php',
     'SORT' => 100,
   ),
   57 => 
@@ -456,6 +464,22 @@ $arUrlRewrite=array (
     'PATH' => '/home/services/index.php',
     'SORT' => 100,
   ),
+  106 => 
+  array (
+    'CONDITION' => '#^/company/staff/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/company/staff/index.php',
+    'SORT' => 100,
+  ),
+  100 => 
+  array (
+    'CONDITION' => '#^/info/articles/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/info/articles/index.php',
+    'SORT' => 100,
+  ),
   53 => 
   array (
     'CONDITION' => '#^/home/projects/#',
@@ -464,12 +488,28 @@ $arUrlRewrite=array (
     'PATH' => '/home/projects/index.php',
     'SORT' => 100,
   ),
+  55 => 
+  array (
+    'CONDITION' => '#^/horeca/catalog#',
+    'RULE' => '',
+    'ID' => 'evg:catalog',
+    'PATH' => '/horeca/catalog/index.php',
+    'SORT' => 100,
+  ),
   58 => 
   array (
     'CONDITION' => '#^/info/article/#',
     'RULE' => '',
     'ID' => 'bitrix:news',
     'PATH' => '/info/article/index.php',
+    'SORT' => 100,
+  ),
+  103 => 
+  array (
+    'CONDITION' => '#^/company/news/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/company/news/index.php',
     'SORT' => 100,
   ),
   59 => 
@@ -488,6 +528,14 @@ $arUrlRewrite=array (
     'PATH' => '/site_wz/news/index.php',
     'SORT' => 100,
   ),
+  112 => 
+  array (
+    'CONDITION' => '#^/company/docs/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/company/docs/index.php',
+    'SORT' => 100,
+  ),
   62 => 
   array (
     'CONDITION' => '#^/info/brands/#',
@@ -496,12 +544,12 @@ $arUrlRewrite=array (
     'PATH' => '/info/brands/index.php',
     'SORT' => 100,
   ),
-  94 => 
+  108 => 
   array (
-    'CONDITION' => '#^/info/stock/#',
+    'CONDITION' => '#^/sharebasket/#',
     'RULE' => '',
-    'ID' => 'bitrix:news',
-    'PATH' => '/info/stock/index.php',
+    'ID' => 'aspro:basket.share.max',
+    'PATH' => '/sharebasket/index.php',
     'SORT' => 100,
   ),
   64 => 
@@ -512,12 +560,12 @@ $arUrlRewrite=array (
     'PATH' => '/info/brand/index.php',
     'SORT' => 100,
   ),
-  77 => 
+  94 => 
   array (
-    'CONDITION' => '#^/info/news/#',
+    'CONDITION' => '#^/info/stock/#',
     'RULE' => '',
     'ID' => 'bitrix:news',
-    'PATH' => '/company/news/index.php',
+    'PATH' => '/info/stock/index.php',
     'SORT' => 100,
   ),
   76 => 
@@ -528,6 +576,14 @@ $arUrlRewrite=array (
     'PATH' => '/info/news/index.php',
     'SORT' => 100,
   ),
+  77 => 
+  array (
+    'CONDITION' => '#^/info/news/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/company/news/index.php',
+    'SORT' => 100,
+  ),
   66 => 
   array (
     'CONDITION' => '#^/blog/blog/#',
@@ -536,12 +592,20 @@ $arUrlRewrite=array (
     'PATH' => '/blog/blog/index.php',
     'SORT' => 100,
   ),
-  67 => 
+  109 => 
   array (
-    'CONDITION' => '#^/services/#',
+    'CONDITION' => '#^/lookbooks/#',
     'RULE' => '',
-    'ID' => 'bitrix:catalog',
-    'PATH' => '/services/index.php',
+    'ID' => 'bitrix:news',
+    'PATH' => '/lookbooks/index.php',
+    'SORT' => 100,
+  ),
+  113 => 
+  array (
+    'CONDITION' => '#^/personal/#',
+    'RULE' => '',
+    'ID' => 'bitrix:sale.personal.section',
+    'PATH' => '/personal/index.php',
     'SORT' => 100,
   ),
   68 => 
@@ -558,6 +622,30 @@ $arUrlRewrite=array (
     'RULE' => '',
     'ID' => 'bitrix:catalog',
     'PATH' => '/products/index.php',
+    'SORT' => 100,
+  ),
+  107 => 
+  array (
+    'CONDITION' => '#^/landings/#',
+    'RULE' => '',
+    'ID' => 'bitrix:catalog',
+    'PATH' => '/landings/index.php',
+    'SORT' => 100,
+  ),
+  104 => 
+  array (
+    'CONDITION' => '#^/projects/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/projects/index.php',
+    'SORT' => 100,
+  ),
+  67 => 
+  array (
+    'CONDITION' => '#^/services/#',
+    'RULE' => '',
+    'ID' => 'bitrix:catalog',
+    'PATH' => '/services/index.php',
     'SORT' => 100,
   ),
   99 => 
@@ -598,6 +686,22 @@ $arUrlRewrite=array (
     'RULE' => '',
     'ID' => NULL,
     'PATH' => '/bitrix/services/rest/index.php',
+    'SORT' => 100,
+  ),
+  101 => 
+  array (
+    'CONDITION' => '#^/blog/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/blog/index.php',
+    'SORT' => 100,
+  ),
+  102 => 
+  array (
+    'CONDITION' => '#^/auth/#',
+    'RULE' => '',
+    'ID' => 'aspro:auth.max',
+    'PATH' => '/auth/index.php',
     'SORT' => 100,
   ),
 );

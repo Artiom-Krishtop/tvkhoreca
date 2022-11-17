@@ -1,6 +1,6 @@
 <?
 $sSectionName = "Возможности";
-$arDirProperties = array(
+$arDirProperties = Array(
 
 );
 ?>

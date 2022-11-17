@@ -1,20 +1,21 @@
-<?
-require($_SERVER['DOCUMENT_ROOT'].'/bitrix/modules/main/include/prolog_before.php');
-if(!CModule::IncludeModule('sale') || !CModule::IncludeModule('aspro.mshop')){
-	echo 'failure';
-	die();
+<?define("STATISTIC_SKIP_ACTIVITY_CHECK", "true");?>
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");
+
+if(!CModule::IncludeModule("sale") || !CModule::IncludeModule("catalog") || !CModule::IncludeModule("iblock")){
+	echo "failure";
+	return;
 }
 
-$arBasketAspro = CMShop::getBasketAspro();
+if(\Bitrix\Main\Loader::IncludeModule('aspro.max'))
+{
+	$iblockID=(isset($_GET["iblockID"]) ? $_GET["iblockID"] : CMaxCache::$arIBlocks[SITE_ID]['aspro_max_catalog']['aspro_max_catalog'][0] );
+	$arItems=CMax::getBasketItems($iblockID);
 
-// get compare from session
-if(isset($_REQUEST['iblockID'])){
-	$IBLOCK_ID = htmlspecialcharsbx($_REQUEST['iblockID']);
-	$arBasketAspro['COMPARE'] = array_keys($_SESSION['CATALOG_COMPARE_LIST'][$IBLOCK_ID]['ITEMS']);
-}
-?>
-<script type="text/javascript">
-	var arBasketAspro = <?=CUtil::PhpToJSObject($arBasketAspro, false, true);?>;
-</script>
-<?
-require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/epilog_after.php");?>
+	?>
+	<script type="text/javascript">
+		var arBasketAspro = <? echo CUtil::PhpToJSObject($arItems, false, true); ?>;
+		if(typeof obMaxPredictions === 'object'){
+			obMaxPredictions.updateAll();
+		}
+	</script>
+<?}?>

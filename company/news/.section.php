@@ -1,6 +1,6 @@
 <?
-$sSectionName = "Новости компании";
-$arDirProperties = array(
-
+$sSectionName = "Новости";
+$arDirProperties = Array(
+   "HIDE_LEFT_BLOCK" => "Y"
 );
 ?>

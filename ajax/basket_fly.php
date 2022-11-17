@@ -1,8 +1,8 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");
-CModule::IncludeModule("aspro.mshop");
-?>
-<?
+\Bitrix\Main\Loader::includeModule("aspro.max");
+include_once("action_basket.php");
+
 $APPLICATION->IncludeComponent("bitrix:sale.basket.basket", "fly", array(
 	"COLUMNS_LIST" => array(
 		0 => "NAME",
@@ -18,7 +18,6 @@ $APPLICATION->IncludeComponent("bitrix:sale.basket.basket", "fly", array(
 		0 => "SIZES",
 		1 => "COLOR_REF",
 	),
-	"PATH_TO_ORDER" => SITE_DIR."order/",
 	"HIDE_COUPON" => "N",
 	"PRICE_VAT_SHOW_VALUE" => "Y",
 	"COUNT_DISCOUNT_4_ALL_QUANTITY" => "N",
@@ -28,7 +27,10 @@ $APPLICATION->IncludeComponent("bitrix:sale.basket.basket", "fly", array(
 	"SHOW_MEASURE" => "Y",
 	"PICTURE_WIDTH" => "70",
 	"PICTURE_HEIGHT" => "70",
-	"PATH_TO_BASKET" => SITE_DIR."basket/",
+	"PATH_TO_BASKET" => CMax::GetFrontParametrValue("BASKET_PAGE_URL"), 
+	"PATH_TO_ORDER" => CMax::GetFrontParametrValue("ORDER_PAGE_URL"), 
+	"PATH_TO_AUTH" => SITE_DIR."auth/",
+	"PATH_TO_COMPARE" => CMax::GetFrontParametrValue("COMPARE_PAGE_URL"),
 	"SHOW_FULL_ORDER_BUTTON" => "N",
 	"SHOW_FAST_ORDER_BUTTON" => "Y"
 	),

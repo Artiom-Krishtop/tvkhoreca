@@ -1,0 +1,50 @@
+/*NOTE: This file is intended for programmers. Aspro technical support is not advised to work with him.*/
+
+/* Examples (uncomment to use):*/
+
+/* Expand site width */
+/* body .wrapper { max-width: 1400px !important;  } */
+
+/* Set site background image */
+/* body {  background: url(image_source) top no-repeat; }
+
+/* Hide compare button */
+/* a.compare_item { display: none !important;  }*/
+
+.b-company-info{
+    margin: 40px auto;
+}
+
+.b-top-adress{
+    border: 0px;
+    margin: 10px 0px;
+}
+
+.b-company-staff{
+    padding: 0px 16px;
+}
+
+.drag-block[data-order="21"] {
+    -webkit-box-ordinal-group: 22;
+    -ms-flex-order: 21;
+    order: 21;
+}
+
+.drag-block.container.MAPS .maxwidth-theme{
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+
+@media (min-width: 768px){
+    .drag-block.container.MAPS .maxwidth-theme .top_block{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 767px){
+    .drag-block.container.MAPS .maxwidth-theme .top_block {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}

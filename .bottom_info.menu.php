@@ -1,15 +1,8 @@
 <?
 $aMenuLinks = Array(
 	Array(
-		"Условия оплаты", 
-		"/help/payment/", 
-		Array(), 
-		Array(), 
-		"" 
-	),
-	Array(
-		"Условия доставки", 
-		"/help/delivery/", 
+		"Информация", 
+		"/info/", 
 		Array(), 
 		Array(), 
 		"" 
