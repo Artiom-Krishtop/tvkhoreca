@@ -1,36 +1,50 @@
 <?
 $aMenuLinks = Array(
 	Array(
-		"О компании", 
-		"/company/", 
+		"Show-room", 
+		"/show-room/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Услуги", 
-		"/services/", 
+		"Каталог", 
+		"/catalog/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Как купить", 
-		"/help/", 
+		"Новинки", 
+		"/catalog/novinki/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Производители", 
-		"/info/brands/", 
+		"Скидки", 
+		"/catalog/aktsii/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Магазины", 
-		"/contacts/stores/", 
+		"Оплата", 
+		"/help/payment/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Доставка", 
+		"/help/delivery/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Реквизиты", 
+		"/company/requisites/", 
 		Array(), 
 		Array(), 
 		"" 
@@ -41,6 +55,6 @@ $aMenuLinks = Array(
 		Array(), 
 		Array(), 
 		"" 
-	),
+	)
 );
 ?>

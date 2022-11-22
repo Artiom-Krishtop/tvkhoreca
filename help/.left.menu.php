@@ -15,8 +15,8 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
-		"Гарантия на товар", 
-		"/help/warranty/", 
+		"TEst", 
+		"/test/", 
 		Array(), 
 		Array(), 
 		"" 

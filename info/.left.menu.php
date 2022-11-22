@@ -1,50 +1,43 @@
 <?
 $aMenuLinks = Array(
 	Array(
-		"Магазины", 
-		"/contacts/stores/", 
+		"Каталог", 
+		"/catalog/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Условия оплаты", 
-		"/help/payment/", 
+		"Бренды", 
+		"/catalog/brands/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Условия доставки", 
-		"/help/delivery/", 
+		"Новинки", 
+		"/catalog/novinki/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Гарантия на товар", 
-		"/help/warranty/", 
+		"Акциионные товары", 
+		"/catalog/aktsii/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Реквизиты", 
-		"#", 
+		"Акции", 
+		"/sale/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Политика", 
-		"/include/licenses_detail.php", 
-		Array(), 
-		Array(), 
-		"" 
-	),
-	Array(
-		"Возможности", 
-		"/info/more/", 
+		"Новости и статьи", 
+		"/blog/", 
 		Array(), 
 		Array(), 
 		"" 

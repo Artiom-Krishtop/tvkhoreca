@@ -22,22 +22,15 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
-		"Гарантия на товар", 
-		"/help/warranty/", 
-		Array(), 
-		Array(), 
-		"" 
-	),
-	Array(
-		"Вопрос-ответ", 
+		"Частые вопросы", 
 		"/info/faq/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Обзоры", 
-		"/landings/", 
+		"Поиск по сайту", 
+		"/search/", 
 		Array(), 
 		Array(), 
 		"" 

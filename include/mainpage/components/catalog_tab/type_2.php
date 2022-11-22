@@ -56,6 +56,7 @@
 		"SET_TITLE" => "N",
 		"SET_STATUS_404" => "N",
 		"PRICE_CODE" => array(
+			0 => "Отпускная цена с НДС №2",
 		),
 		"USE_PRICE_COUNT" => "Y",
 		"SHOW_ONE_CLICK_BUY" => "Y",
@@ -90,8 +91,7 @@
 		"OFFERS_SORT_FIELD2" => "id",
 		"OFFERS_SORT_ORDER2" => "desc",
 		"SHOW_MEASURE" => "Y",
-		"OFFERS_CART_PROPERTIES" => array(
-		),
+		"OFFERS_CART_PROPERTIES" => "",
 		"DISPLAY_WISH_BUTTONS" => "Y",
 		"SHOW_DISCOUNT_PERCENT" => "Y",
 		"SHOW_OLD_PRICE" => "Y",
@@ -120,6 +120,16 @@
 		"ADD_PROPERTIES_TO_BASKET" => "Y",
 		"PARTIAL_PRODUCT_PROPERTIES" => "N",
 		"ID_FOR_TABS" => "Y",
+		"ADD_PICT_PROP_OFFER" => "",
+		"USER_FIELDS" => array(
+			0 => "",
+			1 => "",
+		),
+		"FIELDS" => array(
+			0 => "",
+			1 => "",
+		),
+		"QUANTITY_FLOAT" => "N"
 	),
 	false
 );?>

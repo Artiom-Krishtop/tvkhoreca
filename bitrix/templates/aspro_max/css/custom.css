@@ -48,3 +48,15 @@
         padding-right: 16px;
     }
 }
+
+.with_dropdown .svg-inline-down {
+    right: 0;
+    margin: -5px 0px 0px;
+    width: 10px;
+    height: 10px;
+}
+
+.with_dropdown .svg-inline-down svg{
+    width: 10px;
+    height: 10px;
+}

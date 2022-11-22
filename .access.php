@@ -9,4 +9,10 @@ $PERM["index.php"]["8"]="W";
 $PERM["pub"]["5"]="T_8";
 $PERM["upload"]["5"]="T_8";
 $PERM["/"]["*"]="R";
+
+$PERM["services"]["*"]="D";
+$PERM["projects"]["*"]="D";
+$PERM["lookbooks"]["*"]="D";
+$PERM["managers-desc"]["*"]="D";
+
 ?>

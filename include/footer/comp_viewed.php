@@ -22,15 +22,16 @@ $arViewedIDs=CMax::getViewedProducts((int)CSaleBasket::GetBasketUserID(false), S
 		<div class="viewed_product_block <?=($arTheme["SHOW_BG_BLOCK"]["VALUE"] == "Y" ? "fill" : "no_fill");?>">
 			<div class="wrapper_inner">
 				<?$APPLICATION->IncludeComponent(
-					"aspro:catalog.viewed.max",
-					"main_horizontal",
-					array(
-						"TITLE_BLOCK" => GetMessage('VIEWED_BEFORE'),
-						"SHOW_MEASURE" => "Y",
-						"CACHE_TYPE" => "N",
-					),
-					false
-				);?>
+	"aspro:catalog.viewed.max", 
+	"main_horizontal", 
+	array(
+		"TITLE_BLOCK" => GetMessage("VIEWED_BEFORE"),
+		"SHOW_MEASURE" => "N",
+		"CACHE_TYPE" => "N",
+		"COMPONENT_TEMPLATE" => "main_horizontal"
+	),
+	false
+);?>
 			</div>
 		</div>
 	<?}?>

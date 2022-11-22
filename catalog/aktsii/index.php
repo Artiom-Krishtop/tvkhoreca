@@ -70,7 +70,7 @@ if(isset($_SERVER["HTTP_X_REQUESTED_WITH"]) && strtolower($_SERVER['HTTP_X_REQUE
 		"IBLOCK_TYPE" => "aspro_allcorp_catalog",
 		"INCLUDE_SUBSECTIONS" => "Y",
 		"LABEL_PROP" => "-",
-		"LINE_ELEMENT_COUNT" => "3",
+		"LINE_ELEMENT_COUNT" => "4",
 		"MESSAGE_404" => "",
 		"MESS_BTN_ADD_TO_BASKET" => "В корзину",
 		"MESS_BTN_BUY" => "Купить",

@@ -435,7 +435,11 @@ else
 				}
 				else
 				{
-					$id = Add2BasketByProductID($_REQUEST["item"], $_REQUEST["quantity"]);
+					if(canBuyGood($_REQUEST["item"])){
+						$id = Add2BasketByProductID($_REQUEST["item"], $_REQUEST["quantity"]);
+					}else {
+						$id = null;
+					}
 				}
 				if(!$id)
 				{

@@ -1,19 +1,19 @@
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("Оформление заказа");
+$APPLICATION->SetTitle("Оформление предварительного заказа");
 ?>
 
 <?$APPLICATION->IncludeComponent(
-	"bitrix:sale.order.ajax",
-	"v2",
+	"bitrix:sale.order.ajax", 
+	"v2", 
 	array(
 		"PAY_FROM_ACCOUNT" => "N",
 		"ONLY_FULL_PAY_FROM_ACCOUNT" => "N",
 		"COUNT_DELIVERY_TAX" => "Y",
 		"COUNT_DISCOUNT_4_ALL_QUANTITY" => "N",
-		"ALLOW_AUTO_REGISTER" => "Y",
+		"ALLOW_AUTO_REGISTER" => "N",
 		"SEND_NEW_USER_NOTIFY" => "Y",
 		"DELIVERY_NO_AJAX" => "Y",
-		"DELIVERY_NO_SESSION" => "N",
+		"DELIVERY_NO_SESSION" => "Y",
 		"TEMPLATE_LOCATION" => "popup",
 		"DELIVERY_TO_PAYSYSTEM" => "d2p",
 		"USE_PREPAYMENT" => "N",
@@ -26,12 +26,12 @@ $APPLICATION->SetTitle("Оформление заказа");
 		"PATH_TO_PERSONAL" => SITE_DIR."personal/",
 		"PATH_TO_PAYMENT" => SITE_DIR."order/payment/",
 		"PATH_TO_AUTH" => SITE_DIR."auth/",
-		"SET_TITLE" => "Y",
+		"SET_TITLE" => "N",
 		"PRODUCT_COLUMNS" => "",
 		"DISABLE_BASKET_REDIRECT" => "N",
 		"DISPLAY_IMG_WIDTH" => "90",
 		"DISPLAY_IMG_HEIGHT" => "90",
-		"COMPONENT_TEMPLATE" => "v1",
+		"COMPONENT_TEMPLATE" => "v2",
 		"ALLOW_NEW_PROFILE" => "Y",
 		"SHOW_PAYMENT_SERVICES_NAMES" => "Y",
 		"COMPATIBLE_MODE" => "Y",
@@ -57,7 +57,6 @@ $APPLICATION->SetTitle("Оформление заказа");
 		"SHOW_MAP_IN_PROPS" => "Y",
 		"SHOW_MAP_FOR_DELIVERIES" => array(
 			0 => "1",
-			1 => "2",
 		),
 		"PROPS_FADE_LIST_1" => array(
 			0 => "1",
@@ -126,7 +125,7 @@ $APPLICATION->SetTitle("Оформление заказа");
 		"MESS_BACK" => "Назад",
 		"MESS_FURTHER" => "Далее",
 		"MESS_EDIT" => "изменить",
-		"MESS_ORDER" => "Оформить заказ",
+		"MESS_ORDER" => "Оформить предзаказ",
 		"MESS_PRICE" => "Стоимость",
 		"MESS_PERIOD" => "Срок доставки",
 		"MESS_NAV_BACK" => "Назад",
@@ -147,12 +146,20 @@ $APPLICATION->SetTitle("Оформление заказа");
 		"MESS_NEAREST_PICKUP_LIST" => "Ближайшие пункты:",
 		"MESS_SELECT_PICKUP" => "Выбрать",
 		"MESS_INNER_PS_BALANCE" => "На вашем пользовательском счете:",
-		"MESS_ORDER_DESC" => "Комментарии к заказу:",
+		"MESS_ORDER_DESC" => "Комментарии к предзаказу:",
 		"MESS_SUCCESS_PRELOAD_TEXT" => "Вы заказывали в нашем интернет-магазине, поэтому мы заполнили все данные автоматически. Если все заполнено верно, нажмите кнопку \"#ORDER_BUTTON#\".",
 		"MESS_FAIL_PRELOAD_TEXT" => "Вы заказывали в нашем интернет-магазине, поэтому мы заполнили все данные автоматически. Обратите внимание на развернутый блок с информацией о заказе. Здесь вы можете внести необходимые изменения или оставить как есть и нажать кнопку \"#ORDER_BUTTON#\".",
 		"MESS_DELIVERY_CALC_ERROR_TITLE" => "Не удалось рассчитать стоимость доставки.",
-		"MESS_DELIVERY_CALC_ERROR_TEXT" => "Вы можете продолжить оформление заказа, а чуть позже менеджер магазина свяжется с вами и уточнит информацию по доставке.",
-		"MESS_PAY_SYSTEM_PAYABLE_ERROR" => "Вы сможете оплатить заказ после того, как менеджер проверит наличие полного комплекта товаров на складе. Сразу после проверки вы получите письмо с инструкциями по оплате. Оплатить заказ можно будет в персональном разделе сайта."
+		"MESS_DELIVERY_CALC_ERROR_TEXT" => "Вы можете продолжить оформление предзаказа, а чуть позже менеджер магазина свяжется с вами и уточнит информацию по доставке.",
+		"MESS_PAY_SYSTEM_PAYABLE_ERROR" => "Вы сможете оплатить заказ после того, как менеджер проверит наличие полного комплекта товаров на складе. Сразу после проверки вы получите письмо с инструкциями по оплате. Оплатить заказ можно будет в персональном разделе сайта.",
+		"SHOW_COUPONS" => "Y",
+		"ADDITIONAL_PICT_PROP_54" => "-",
+		"ADDITIONAL_PICT_PROP_81" => "-",
+		"ADDITIONAL_PICT_PROP_82" => "-",
+		"ADDITIONAL_PICT_PROP_109" => "-",
+		"ADDITIONAL_PICT_PROP_113" => "-",
+		"ADDITIONAL_PICT_PROP_115" => "-",
+		"MESS_MORE_DETAILS" => "Подробнее"
 	),
 	false
 );?>

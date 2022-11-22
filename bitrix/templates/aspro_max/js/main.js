@@ -6058,6 +6058,10 @@ $(document).ready(function () {
     window.print();
   });
 
+  $(window).on('beforeprint', function(e){
+    console.log(e);
+  });
+
   $(".head-block .item-link").on("click", function () {
     var _this = $(this);
     _this.siblings().removeClass("active");

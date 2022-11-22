@@ -2,35 +2,14 @@
 $aMenuLinks = Array(
 	Array(
 		"О компании", 
-		"/company/index.php", 
+		"/company/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Новости", 
-		"/company/news/", 
-		Array(), 
-		Array(), 
-		"" 
-	),
-	Array(
-		"Команда", 
-		"/company/staff/", 
-		Array(), 
-		Array(), 
-		"" 
-	),
-	Array(
-		"Отзывы", 
-		"/company/reviews/", 
-		Array(), 
-		Array(), 
-		"" 
-	),
-	Array(
-		"Карьера", 
-		"/company/vacancy/", 
+		"Реквизиты", 
+		"/company/requisites/", 
 		Array(), 
 		Array(), 
 		"" 
@@ -43,22 +22,8 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
-		"Партнеры", 
-		"/company/partners/", 
-		Array(), 
-		Array(), 
-		"" 
-	),
-	Array(
-		"Лицензии", 
-		"/company/licenses/", 
-		Array(), 
-		Array(), 
-		"" 
-	),
-	Array(
-		"Документы", 
-		"/company/docs/", 
+		"Политика", 
+		"/include/licenses_detail.php", 
 		Array(), 
 		Array(), 
 		"" 

@@ -1,4 +1,9 @@
 <?
+
+\Bitrix\Main\Loader::registerAutoLoadClasses(null, array(
+	'ITG\Classes\HelperClasses\HidePriceChecker' => '/bitrix/php_interface/Classes/HelperClasses/HidePriceChecker.php'
+));
+
 function rds($uri,$step="start"){
     $new_uri = str_replace("//", "/", $uri);
     if(strpos($new_uri, "//") !== false){
@@ -352,6 +357,17 @@ class GoogleReCaptcha
 function dd($text, $die = true){
 	echo '<pre>' . print_r($text, 1) . '</pre>';
 	if($die) die('____END_DEBUG____');
+}
+
+/* Хелпер для скрытия цен*/
+function isHidePrice($arItem){
+	$checker = ITG\Classes\HelperClasses\HidePriceChecker::getInstance();
+	return $checker->isHidePrice($arItem);
+}
+
+function canBuyGood($id){
+	$checker = ITG\Classes\HelperClasses\HidePriceChecker::getInstance();
+	return !$checker->isHidePriceByID($id);
 }
 
 ?>

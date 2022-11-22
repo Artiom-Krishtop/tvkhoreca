@@ -72,7 +72,7 @@ $GLOBALS['arrFilter'] = array( "PROPERTY_HIT" => 19554);
 		"IBLOCK_TYPE" => "aspro_allcorp_catalog",
 		"INCLUDE_SUBSECTIONS" => "Y",
 		"LABEL_PROP" => "-",
-		"LINE_ELEMENT_COUNT" => "3",
+		"LINE_ELEMENT_COUNT" => "4",
 		"MESSAGE_404" => "",
 		"MESS_BTN_ADD_TO_BASKET" => "В корзину",
 		"MESS_BTN_BUY" => "Купить",
