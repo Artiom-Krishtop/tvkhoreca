@@ -78,7 +78,7 @@ $logoClass = ($arTheme['COLORED_LOGO']['VALUE'] !== 'Y' ? '' : ' colored');
 					<div class="line-block__item  no-shrinked">
 						<div class=" inner-table-block nopadding small-block">
 							<div class="wrap_icon wrap_cabinet">
-								<?=CMax::showCabinetLink(true, false, 'big');?>
+								<?//=CMax::showCabinetLink(true, false, 'big');?>
 							</div>
 						</div>
 					</div>

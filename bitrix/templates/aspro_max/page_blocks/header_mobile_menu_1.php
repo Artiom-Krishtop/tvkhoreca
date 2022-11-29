@@ -50,7 +50,7 @@
 
 		<?
 		// show cabinet item
-		CMax::ShowMobileMenuCabinet();
+		//CMax::ShowMobileMenuCabinet();
 
 		// show basket item
 		CMax::ShowMobileMenuBasket();

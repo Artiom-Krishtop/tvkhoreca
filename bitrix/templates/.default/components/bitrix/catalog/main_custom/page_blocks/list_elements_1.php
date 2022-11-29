@@ -358,9 +358,9 @@ if(isset($isAjaxFilter) && $isAjaxFilter == "Y")
 				$SMART_FILTER_SORT = $arSort;
 				?>
 
-				<? if (isset($_REQUEST['display']) && $_REQUEST['display'] == 'print'){
-					$template = 'catalog_print';
-				}?>
+				<?// if (isset($_REQUEST['display']) && $_REQUEST['display'] == 'print'){
+					//$template = 'catalog_print';
+				//}?>
 
 				<?$APPLICATION->IncludeComponent(
 					"bitrix:catalog.section",

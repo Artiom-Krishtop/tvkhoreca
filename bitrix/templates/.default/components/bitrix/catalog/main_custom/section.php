@@ -586,7 +586,7 @@ if ($bHideSideSectionBlock) {
 				<?if($bContolAjax):?>
 					<?$APPLICATION->RestartBuffer();?>
 				<?endif;?>
-				<div class="topic">
+				<!-- <div class="topic">
 					<div class="topic__inner">
 						<a href="http://tvkhoreca.itg-soft.by/catalog/posuda/chayno_kofeynaya_gruppa/pary_chaynye_kofeynye/?display=print">принт</a>
 						<div class="btn_basket_heading btn_basket_heading--print print-link colored_theme_hover_bg-block btn_basket_heading--with_title" title="Версия для печати">
@@ -597,7 +597,7 @@ if ($bHideSideSectionBlock) {
 							</i>
 						</div>
 					</div>
-				</div>
+				</div> -->
 
 				<?@include_once('page_blocks/'.$arParams["SECTION_ELEMENTS_TYPE_VIEW"].'.php');?>
 

@@ -1,7 +1,8 @@
 <?
 
 \Bitrix\Main\Loader::registerAutoLoadClasses(null, array(
-	'ITG\Classes\HelperClasses\HidePriceChecker' => '/bitrix/php_interface/Classes/HelperClasses/HidePriceChecker.php'
+	'ITG\Classes\HelperClasses\HidePriceChecker' => '/bitrix/php_interface/Classes/HelperClasses/HidePriceChecker.php',
+	'ITG\Classes\EventHandlers\ImportHandlers' => '/bitrix/php_interface/Classes/EventHandlers/ImportHandlers.php',
 ));
 
 function rds($uri,$step="start"){
@@ -369,5 +370,10 @@ function canBuyGood($id){
 	$checker = ITG\Classes\HelperClasses\HidePriceChecker::getInstance();
 	return !$checker->isHidePriceByID($id);
 }
+
+$eventManager = \Bitrix\Main\EventManager::getInstance();
+$eventManager->addEventHandler("iblock", "OnBeforeIBlockElementUpdate", array("ITG\Classes\EventHandlers\ImportHandlers", "onBeforeIBlockElementUpdate"));
+
+
 
 ?>

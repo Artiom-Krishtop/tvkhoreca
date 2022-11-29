@@ -14,5 +14,8 @@ $PERM["services"]["*"]="D";
 $PERM["projects"]["*"]="D";
 $PERM["lookbooks"]["*"]="D";
 $PERM["managers-desc"]["*"]="D";
+$PERM["personal"]["*"]="D";
+$PERM["basket"]["*"]="D";
+$PERM["order"]["*"]="D";
 
 ?>

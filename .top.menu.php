@@ -16,7 +16,7 @@ $aMenuLinks = Array(
 	),
 	Array(
 		"Новинки", 
-		"/catalog/novinki/", 
+		"/landings/novinki/", 
 		Array(), 
 		Array(), 
 		"" 

@@ -60,3 +60,17 @@
     width: 10px;
     height: 10px;
 }
+
+/* @media (max-width: 600px){
+    .drag-block.container.CATALOG_TAB{
+        display: none;
+    }
+} */
+
+.logo-row .logo{
+    z-index: 0;
+}
+
+#headerfixed.fixed:not(.tabs-fixed) {
+    box-shadow: 0 20px 20px rgb(0 0 0 / 14%);
+}

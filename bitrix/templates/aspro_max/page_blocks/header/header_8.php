@@ -62,7 +62,7 @@
                      <div class="show-fixed top-ctrl">
                         <div class="personal_wrap">
                            <div class="wrap_icon inner-table-block person">
-                              <?=CMax::ShowCabinetLink(true, true, 'big');?>
+                              <?//=CMax::ShowCabinetLink(true, true, 'big');?>
                            </div>
                         </div>
                      </div>

@@ -8,7 +8,7 @@
 	<div class="basket_fly">
 		<div class="wrap_cont">
 			<div class="opener">
-				<div title="<?=$arBasketPrices['BASKET_SUMM_TITLE']?>" data-type="AnDelCanBuy" class="colored_theme_hover_text basket_count small clicked empty">
+				<!-- <div title="<?=$arBasketPrices['BASKET_SUMM_TITLE']?>" data-type="AnDelCanBuy" class="colored_theme_hover_text basket_count small clicked empty">
 					<a href="<?=(is_array($arCounters['READY']['HREF']) ? $arCounters['READY']['HREF']['VALUE'] : $arCounters['READY']['HREF']);?>"></a>
 					<div class="wraps_icon_block basket">
 						<?=CMax::showSpriteIconSvg(SITE_TEMPLATE_PATH."/images/svg/header_icons_srite.svg#basket", "down ", ['WIDTH' => 20,'HEIGHT' => 16]);?>
@@ -20,7 +20,7 @@
 							</span>
 						</div>
 					</div>
-				</div>
+				</div> -->
 				<div title="<?=$arBasketPrices['DELAY_SUMM_TITLE']?>" data-type="DelDelCanBuy" class="colored_theme_hover_text wish_count small clicked empty">
 					<a href="<?=(is_array($arCounters['DELAY']['HREF']) ? $arCounters['DELAY']['HREF']['VALUE']."#delayed" : $arCounters['DELAY']['HREF']);?>"></a>
 					<div class="wraps_icon_block delay">

@@ -59,7 +59,7 @@
 			0 => "Отпускная цена с НДС №2",
 		),
 		"USE_PRICE_COUNT" => "Y",
-		"SHOW_ONE_CLICK_BUY" => "Y",
+		"SHOW_ONE_CLICK_BUY" => "N",
 		"SHOW_PRICE_COUNT" => "1",
 		"PRICE_VAT_INCLUDE" => "Y",
 		"PRODUCT_PROPERTIES" => array(
